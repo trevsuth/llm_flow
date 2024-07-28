@@ -34,6 +34,7 @@ A locally hosted LLM chat application named after Luis Pacheco de Narváez, auth
 ### File storage and retrieval
 * @cache \<FILENAME> - extracts text and uploads to redis for short term Q&A
 * @save \<FILENAME> \<COLLECTION> - extracts text and saves file to long-term storage
+* @extract \<FILENAME> - extracts text from file and uploads to Redis.  Returns Redis DB ID
 
 ## Config Files
 * agent.yaml
