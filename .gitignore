@@ -1,0 +1,6 @@
+# POC folder
+/misc_poc
+
+# Environments files
+*.env
+
