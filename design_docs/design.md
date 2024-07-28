@@ -28,6 +28,8 @@ A locally hosted LLM chat application named after Luis Pacheco de Narváez, auth
 * @load \<FILENAME> - loads the specified conversation from the conversations directory
 * @conversations - lists saved conversations
 * @agents - lists contents of agent file
+* @models - list available models
+* @models \<MODELNAME> - force model use
 
 ### File storage and retrieval
 * @cache \<FILENAME> - extracts text and uploads to redis for short term Q&A
