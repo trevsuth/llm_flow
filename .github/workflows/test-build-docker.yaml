@@ -19,5 +19,14 @@ jobs:
     - name: Build Docker image
       run: docker build -t your-image-name:latest .
 
-    - name: Test Docker image
-      run: docker run --rm your-image-name:latest
+    - name: Run Docker container
+      run: docker run -d --name test-container your-image-name:latest
+
+    - name: Test Docker container
+      run: docker exec test-container your-test-command
+
+    - name: Stop Docker container
+      run: docker stop test-container
+
+    - name: Remove Docker container
+      run: docker rm test-container
