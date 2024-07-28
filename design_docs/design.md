@@ -36,6 +36,8 @@ A locally hosted LLM chat application named after Luis Pacheco de Narváez, auth
 ## Config Files
 * agent.yaml
   * name - expertise - prompt
+* models.yaml
+  * model_name - use
 * config.yaml
   * conversations directory
 
