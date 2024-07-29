@@ -28,4 +28,4 @@ def invoke_chain(input_text: InputText):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the LangChain API"}
+    return {"message": "Welcome to the Narvaez API"}
